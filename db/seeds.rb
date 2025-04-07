@@ -7,7 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-
+require 'open-uri'
 puts "Clearing bookings..."
 Booking.destroy_all
 
@@ -30,21 +30,21 @@ course1 = Course.create!(
   title: "Telekinesis",
   description: "Unlock the power of your mind to manipulate objects without physical contact. Learn how to control and move items with precision and focus.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Telekinesis
-    - **Introduction to Telekinesis**
+    Course Syllabus: Telekinesis
+      **Introduction to Telekinesis**
       - Understanding the science and psychology behind telekinesis.
       - Basic meditation techniques to improve focus.
 
-    - **Lifting and Moving Objects**
+      **Lifting and Moving Objects**
       - Practicing with small, lightweight items.
       - Increasing range and power for larger objects.
       - Techniques for fine motor control.
 
-    - **Defensive and Offensive Applications**
+      **Defensive and Offensive Applications**
       - Creating barriers using nearby objects.
       - Redirecting incoming threats with telekinesis.
 
-    - **Advanced Techniques**
+      **Advanced Techniques**
       - Simultaneously controlling multiple objects.
       - Using telekinesis in combination with other powers.
       - Overcoming mental fatigue and enhancing endurance.
