@@ -18,9 +18,15 @@
   .course-index-cover-section {
     margin-bottom: 20px !important;
   }
+  .course-index-cover-word {
+    margin-left: 10px !important;
+    h3 {
+      font-size: 2.5em !important;
+    }
+  }
   .course-index-hero-title {
     font-size: 5em !important;
-    text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 3px 3px 0 rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 3px 3px 0 rgba(0, 0, 0, 0.5) !important;
     padding: 0 !important;
     margin-bottom: 20px !important;
   }
