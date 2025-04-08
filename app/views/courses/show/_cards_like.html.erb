@@ -1,0 +1,10 @@
+<div class="course-show-bottom-wrapper d-flex flex-column">
+  <h2 style="font-size: 50px; margin-top: 70px;"class="syllabus">Guess what you like</h2>
+  <div class="row">
+    <% @category = course.category%>
+    <% @guess_courses = Course.where(category: @category).where.not(id: course.id).to_a.sample(4)%>
+    <% @guess_courses.each do |guess_course|%>
+      <%= render "pages/card", course: guess_course%>
+    <% end %>
+  </div>
+</div>

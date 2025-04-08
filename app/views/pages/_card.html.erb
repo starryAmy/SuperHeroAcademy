@@ -1,4 +1,4 @@
-<div class="col-md-3 col-sm-8">
+<div class="card-wrapper col-md-3 col-sm-8">
   <div class="card mb-4 shadow-sm p-3 course-index-fixed-card <%= course.category %>">
     <div class="course-index-card-title"> <%= course.title %>
     </div>
@@ -22,10 +22,12 @@
         <div class="course-index-btn <%= course.category %>">
           <%= link_to 'View', course_path(course)%>
         </div>
-        <div class="course-index-heart-wrapping" data-controller="favorite">
-          <% favorited = current_user.favorites.exists?(course:course) if user_signed_in?%>
-          <i data-course-id="<%= course.id %>" data-action="click->favorite#toggle" class="<%= favorited ? 'fas' : 'far' %> fa-heart course-index-heart <%= course.category %>"></i>
-        </div>
+        <% if user_signed_in? %>
+          <div class="course-index-heart-wrapping me-3" data-controller="favorite">
+            <% favorited = current_user.favorites.exists?(course:course) if user_signed_in?%>
+              <i data-course-id="<%= course.id %>" data-action="click->favorite#toggle" class="<%= favorited ? 'fas' : 'far' %> fa-heart course-index-heart <%= course.category %>"></i>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>

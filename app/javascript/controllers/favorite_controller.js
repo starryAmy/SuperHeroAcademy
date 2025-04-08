@@ -11,7 +11,7 @@ export default class extends Controller {
       headers: {
         "X-CSRF-Token": document.querySelector("meta[name='csrf-token']").getAttribute("content"),
         'Content-Type': 'application/json',
-        "Accept": "application/json", // 確保要求 JSON 回應
+        "Accept": "application/json",
       },
     }).then((response) => response.json())
     .then((data) => {
