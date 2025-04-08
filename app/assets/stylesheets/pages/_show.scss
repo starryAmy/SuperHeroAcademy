@@ -28,6 +28,14 @@ $color-fifth: #f4f1de;
       font-size: 30px !important;
     }
   }
+  .course-show-price-tag-mobile {
+    background-color: white;
+    padding: 0;
+    width: 300px;
+    height: 530px;
+    z-index: 100;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
 }
 // set the search bar to be the most right side of the screen
 .course-show-search-bar-wrapping {
@@ -69,14 +77,6 @@ $color-fifth: #f4f1de;
   position: sticky;
   top: 80px;
 
-}
-.course-show-price-tag-mobile {
-  background-color: white;
-  padding: 0;
-  width: 300px;
-  height: 530px;
-  z-index: 100;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 .course-show-title{
   color: $color-first;
