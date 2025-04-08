@@ -1,6 +1,5 @@
 class CoursesController < ApplicationController
   before_action :set_course, only: [:show, :edit, :update, :destroy]
-  before_action :set_teacher, only: [:show]
   before_action :authenticate_user!, except: [:index, :show]
   def index
     @courses = Course.all
@@ -57,10 +56,6 @@ class CoursesController < ApplicationController
 
   def set_course
     @course = Course.find(params[:id])
-  end
-
-  def set_teacher
-    @teacher = @course.user
   end
 
   def course_params
