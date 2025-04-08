@@ -79,6 +79,4 @@ test:
 #
 production:
   <<: *default
-  database: super_hero_academy_production
-  username: super_hero_academy
-  password: <%= ENV["SUPER_HERO_ACADEMY_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
