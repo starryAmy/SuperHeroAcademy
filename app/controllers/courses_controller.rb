@@ -48,7 +48,7 @@ class CoursesController < ApplicationController
   def destroy
     # @course = Course.find(params[:id])
     @course.destroy
-    redirect_to teacher_courses_path, status: :see_other
+    redirect_to teacher_courses_path, status: :see_other, notice: "Course deleted"
   end
 
 
