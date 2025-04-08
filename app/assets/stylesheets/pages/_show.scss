@@ -5,6 +5,17 @@ $color-third: #3d405b;
 $color-fourth: #e07a5f;
 $color-fifth: #f4f1de;
 
+@media only screen and (max-width: 768px) {
+  // .course-show-price-tag {
+  //   position: static !important;
+  // }
+  .course-show-description{
+    width: 100% !important;
+  }
+  .course-show-cover {
+    padding: 20px;
+  }
+}
 // set the search bar to be the most right side of the screen
 .course-show-search-bar-wrapping {
   padding-right: 0;
@@ -16,15 +27,48 @@ $color-fifth: #f4f1de;
 
 .course-show-cover{
   background-color: $color-third;
-  padding-top: 60px;
-  padding-right: 100px;
-  height: 300px;
+  // padding-top: 200px;
+  // padding-right: 100px;
   display: flex;
   justify-content: space-between;
+  // margin-top: 100px;
+  padding: 20px 40px;
+  width: 100%;
+  align-items: flex-start;
+}
+.course-show-main-info{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.course-show-wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.course-show-bottom-wrapper {
+  padding: 0 40px;
+}
+.course-show-price-tag{
+  background-color: white;
+  padding: 0;
+  // margin-top: 80px;
+  width: 300px;
+  height: 530px;
+  z-index: 100;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
+  position: sticky;
+  top: 80px;
+
 }
 .course-show-title{
   color: $color-first;
   margin-top: 3%;
+  font-size: 2em;
+  width: 100%;
 }
 .course-show-location{
   color: lightgray;
@@ -36,17 +80,9 @@ $color-fifth: #f4f1de;
 .course-show-description{
   color: white;
   font-size: larger;
+  margin-bottom: 10px;
 }
 
-.course-show-main-info{
-  // border: 2px solid white;
-  width: 70%;
-  margin-left: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1%;
-}
 
 .course-show-tags{
   display: flex;
@@ -91,21 +127,6 @@ $color-fifth: #f4f1de;
   background-color: $color-fourth;
   border: 2px solid white;
   color: white;
-}
-.course-show-price-tag{
-  background-color: white;
-  padding: 0;
-  margin-top: 80px;
-  width: 300px;
-  height: 530px;
-  z-index: 100;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-around;
-  position: sticky;
-  top: 0;
-
 }
 
 .course-show-details{
