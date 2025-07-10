@@ -6,7 +6,7 @@ Unleash your inner hero — **whether you're learning or teaching, SuperHeroAcad
 ![SuperPowerAcademy Landing Page](screenshots/superpower.png)
 
 <br>
-App home: https://super-hero-academy-1c8a93bbc04f.herokuapp.com/
+App home: https://superheroacademy-06a9d5a12a6c.herokuapp.com/
    
 ## Features
 
