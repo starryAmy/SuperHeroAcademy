@@ -30,24 +30,32 @@ course1 = Course.create!(
   title: "Telekinesis",
   description: "Unlock the power of your mind to manipulate objects without physical contact. Learn how to control and move items with precision and focus.",
   syllabus: <<~SYLLABUS,
-    Course Syllabus: Telekinesis
-      **Introduction to Telekinesis**
-      - Understanding the science and psychology behind telekinesis.
-      - Basic meditation techniques to improve focus.
+    <h2>Course Syllabus: Telekinesis</h2>
+      <strong>Introduction to Telekinesis</strong>
+      <ul>
+      <li>Understanding the science and psychology behind telekinesis</li>
+      <li>Basic meditation techniques to improve focus</li>
+      </ul>
 
-      **Lifting and Moving Objects**
-      - Practicing with small, lightweight items.
-      - Increasing range and power for larger objects.
-      - Techniques for fine motor control.
+      <strong>Lifting and Moving Objects</strong>
+      <ul>
+      <li>Practicing with small, lightweight items</li>
+      <li>Increasing range and power for larger objects.
+      <li>Techniques for fine motor control.
+      </ul>
 
-      **Defensive and Offensive Applications**
-      - Creating barriers using nearby objects.
-      - Redirecting incoming threats with telekinesis.
+      <strong>Defensive and Offensive Applications</strong>
+      <ul>
+      <li>Creating barriers using nearby objects</li>
+      <li>Redirecting incoming threats with telekinesis</li>
+      </ul>
 
-      **Advanced Techniques**
-      - Simultaneously controlling multiple objects.
-      - Using telekinesis in combination with other powers.
-      - Overcoming mental fatigue and enhancing endurance.
+      <strong>Advanced Techniques</strong>
+      <ul>
+      <li>Simultaneously controlling multiple objects</li>
+      <li>Using telekinesis in combination with other powers</li>
+      <li>Overcoming mental fatigue and enhancing endurance</li>
+      </ul>
   SYLLABUS
   price: 1400,
   level: 3,
@@ -63,23 +71,39 @@ course2 = Course.create!(
   title: "Shape-Shifting",
   description: "Master the ability to alter your appearance and transform into any creature or object. Explore the potential of limitless transformations.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Shape-Shifting
-    - **Understanding Shape-Shifting**
-      - The biology and mechanics of transformation.
-      - Safeguarding your original form.
+  <h2>Course Syllabus: Shape-Shifting</h2>
 
-    - **Basic Transformations**
-      - Changing small features (e.g., hair color, height).
-      - Morphing into everyday objects and animals.
+  <strong>Introduction to Shape-Shifting</strong>
+  <ul>
+    <li>Understanding the history and mythology of shape-shifting</li>
+    <li>Mental preparation and identity anchoring techniques</li>
+  </ul>
 
-    - **Advanced Transformations**
-      - Full-body transformations into mythical creatures.
-      - Retaining control and awareness during complex changes.
+  <strong>Basic Transformations</strong>
+  <ul>
+    <li>Shifting into small animals: insects, birds, and rodents</li>
+    <li>Maintaining physical control and consciousness in new forms</li>
+  </ul>
 
-    - **Practical Applications**
-      - Using transformations for stealth and disguise.
-      - Enhancing physical abilities (e.g., speed, strength) through shape-shifting.
-      - Combining shape-shifting with other abilities for unique effects.
+  <strong>Intermediate Forms</strong>
+  <ul>
+    <li>Transforming into other humans with voice and posture replication</li>
+    <li>Adapting to different body types and sensory inputs</li>
+  </ul>
+
+  <strong>Combat and Survival Applications</strong>
+  <ul>
+    <li>Evading enemies through rapid form switching</li>
+    <li>Using transformation to enhance stealth and infiltration</li>
+  </ul>
+
+  <strong>Advanced Shape-Shifting</strong>
+  <ul>
+    <li>Hybrid and partial transformations (e.g., claws, wings)</li>
+    <li>Mimicking legendary creatures and abstract forms</li>
+    <li>Balancing transformation speed with stamina</li>
+  </ul>
+
   SYLLABUS
   price: 1600,
   level: 1,
@@ -95,23 +119,39 @@ course3 = Course.create!(
   title: "Imaginary Constructs",
   description: "Turn your imagination into reality by learning to create tangible objects and tools using pure thought. Build anything from simple tools to complex machinery.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Imaginary Constructs
-    - **Foundations of Constructs**
-      - Harnessing creative energy and visualization techniques.
-      - Understanding the durability and stability of constructs.
+  <h2>Course Syllabus: Imaginary Constructs</h2>
 
-    - **Basic Object Creation**
-      - Forming simple tools (e.g., hammers, ropes).
-      - Maintaining focus to ensure construct stability.
+  <strong>Foundations of Mental Projection</strong>
+  <ul>
+    <li>Understanding the nature of imagination-based constructs</li>
+    <li>Practicing visualization and sustained mental focus</li>
+  </ul>
 
-    - **Advanced Constructs**
-      - Building dynamic objects (e.g., vehicles, automated tools).
-      - Enhancing constructs with functional properties (e.g., sharpness, flexibility).
+  <strong>Creating Simple Constructs</strong>
+  <ul>
+    <li>Projecting basic geometric shapes and static objects</li>
+    <li>Controlling position, size, and duration of constructs</li>
+  </ul>
 
-    - **Applications and Ethics**
-      - Using constructs for problem-solving and emergencies.
-      - Ethical considerations in creating objects that mimic real-world items.
-      - Combining constructs with other superpowers for maximum impact.
+  <strong>Functional Constructs</strong>
+  <ul>
+    <li>Designing constructs with interactive or mechanical properties</li>
+    <li>Creating tools, shields, or platforms for real-time use</li>
+  </ul>
+
+  <strong>Combat Applications</strong>
+  <ul>
+    <li>Using constructs for defense and offense in battle scenarios</li>
+    <li>Countering enemy constructs with mental interference</li>
+  </ul>
+
+  <strong>Advanced Mental Engineering</strong>
+  <ul>
+    <li>Building complex, multi-component constructs</li>
+    <li>Maintaining multiple constructs simultaneously under stress</li>
+    <li>Understanding the limits of construct realism and energy consumption</li>
+  </ul>
+
   SYLLABUS
   price: 2000,
   level: 0,
@@ -127,25 +167,38 @@ course4 = Course.create!(
   title: "Flying",
   description: "Master the art of flight with this comprehensive course. Learn to control altitude, speed, and navigation as you soar through the skies.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Flying
-    - **Introduction to Aerodynamics**
-      - Understanding the physics of flight.
-      - The importance of balance and posture in the air.
+  <h2>Course Syllabus: Flying</h2>
 
-    - **Flight Fundamentals**
-      - How to lift off safely.
-      - Maintaining altitude and stability.
-      - Controlled landings and safety tips.
+  <strong>Introduction to Flight</strong>
+  <ul>
+    <li>Understanding the principles of aerial movement and balance</li>
+    <li>Overcoming fear and building trust in your abilities</li>
+  </ul>
 
-    - **Advanced Maneuvers**
-      - Increasing speed without losing control.
-      - Navigating through obstacles and bad weather.
-      - Performing aerial stunts and tricks.
+  <strong>Lift-Off Techniques</strong>
+  <ul>
+    <li>Ground-based launch vs. air-hopping starts</li>
+    <li>Practicing vertical take-off and landing (VTOL)</li>
+  </ul>
 
-    - **Real-World Applications**
-      - Flight etiquette in urban and rural areas.
-      - Rescue operations and delivering goods.
-      - Combining flight with other superpowers for enhanced effectiveness.
+  <strong>Flight Control and Navigation</strong>
+  <ul>
+    <li>Mastering directional control and mid-air adjustments</li>
+    <li>Navigating through various weather conditions and altitudes</li>
+  </ul>
+
+  <strong>Aerial Maneuvers</strong>
+  <ul>
+    <li>Executing turns, dives, and ascents smoothly</li>
+    <li>Performing loops, rolls, and evasive movements</li>
+  </ul>
+
+  <strong>Endurance and Safety</strong>
+  <ul>
+    <li>Managing energy levels and breathing during long-distance flights</li>
+    <li>Learning emergency landing procedures and safety protocols</li>
+  </ul>
+
   SYLLABUS
   price: 1000,
   level: 0,
@@ -161,22 +214,38 @@ course5 = Course.create!(
   title: "Super Strength",
   description: "Develop incredible physical power to lift, smash, and protect with unparalleled strength.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Super Strength
-    - **Strength Basics**
-      - Understanding your limits and safety precautions.
-      - Exercises to enhance strength and endurance.
+  <h2>Course Syllabus: Super Strength</h2>
 
-    - **Applying Force**
-      - Proper techniques for lifting heavy objects.
-      - Using strength strategically in problem-solving.
+  <strong>Foundations of Strength</strong>
+  <ul>
+    <li>Understanding the biomechanics behind enhanced strength</li>
+    <li>Mental discipline and emotional regulation to prevent overexertion</li>
+  </ul>
 
-    - **Combat Training**
-      - Self-defense with super strength.
-      - How to fight without causing unnecessary destruction.
+  <strong>Controlled Power Application</strong>
+  <ul>
+    <li>Lifting and carrying massive objects safely</li>
+    <li>Precision techniques for delicate tasks using great force</li>
+  </ul>
 
-    - **Community Use**
-      - Assisting in natural disasters and emergencies.
-      - Ethical considerations for using super strength in daily life.
+  <strong>Combat and Defense</strong>
+  <ul>
+    <li>Incorporating strength into hand-to-hand combat</li>
+    <li>Using surroundings as improvised weapons or barriers</li>
+  </ul>
+
+  <strong>Environmental Interaction</strong>
+  <ul>
+    <li>Demolishing obstacles and clearing paths in rescue scenarios</li>
+    <li>Reinforcement strategies to avoid unintended damage</li>
+  </ul>
+
+  <strong>Endurance and Recovery</strong>
+  <ul>
+    <li>Managing stamina while using enhanced strength over time</li>
+    <li>Recovery routines and injury prevention for super-powered muscles</li>
+  </ul>
+
   SYLLABUS
   price: 1200,
   level: 3,
@@ -191,23 +260,38 @@ course6 = Course.create!(
   title: "Invisibility",
   description: "Learn to vanish from sight and move undetected in this stealth mastery course.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Invisibility
-    - **Harnessing the Power of Invisibility**
-      - Activating invisibility and maintaining focus.
-      - Understanding the limitations of your invisibility field.
+  <h2>Course Syllabus: Invisibility</h2>
 
-    - **Stealth Techniques**
-      - Moving quietly while invisible.
-      - Strategies for avoiding detection by advanced technology.
+  <strong>Introduction to Invisibility</strong>
+  <ul>
+    <li>Understanding the science and magic behind becoming unseen</li>
+    <li>Exploring the limitations and ethical considerations of invisibility</li>
+  </ul>
 
-    - **Ethical Use**
-      - Privacy laws and respect for others.
-      - Avoiding misuse of invisibility in personal and professional settings.
+  <strong>Activation and Maintenance</strong>
+  <ul>
+    <li>Triggering invisibility at will</li>
+    <li>Maintaining invisibility for extended periods without fatigue</li>
+  </ul>
 
-    - **Practical Scenarios**
-      - Escaping tight situations.
-      - Invisibility in teamwork and espionage.
-      - Combining invisibility with other powers like flying or super strength.
+  <strong>Stealth Movement</strong>
+  <ul>
+    <li>Walking silently and avoiding detection by sound or vibration</li>
+    <li>Navigating different environments while remaining unseen</li>
+  </ul>
+
+  <strong>Advanced Techniques</strong>
+  <ul>
+    <li>Partial invisibility (e.g., hiding only limbs or objects)</li>
+    <li>Invisibility while interacting with physical objects</li>
+  </ul>
+
+  <strong>Countermeasures and Surveillance</strong>
+  <ul>
+    <li>Detecting other invisible entities</li>
+    <li>Invisibility-proof gear and sensors</li>
+  </ul>
+
   SYLLABUS
   price: 1500,
   level: 0,
@@ -223,23 +307,38 @@ course7 = Course.create!(
   title: "Healing Factor",
   description: "Learn how to harness your body's regenerative abilities to recover from injuries and illnesses faster than ever before.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Healing Factor
-    - **Introduction to Healing Factor**
-      - Understanding cellular regeneration and DNA repair mechanisms.
-      - The limits and ethical use of rapid healing.
+  <h2>Course Syllabus: Healing Factor</h2>
 
-    - **Basic Healing Techniques**
-      - Activating self-repair for minor cuts and bruises.
-      - Enhancing recovery from fatigue and sickness.
+  <strong>Introduction to Accelerated Healing</strong>
+  <ul>
+    <li>Biological and metaphysical principles behind rapid regeneration</li>
+    <li>Identifying types of injuries that can be self-healed</li>
+  </ul>
 
-    - **Advanced Regeneration**
-      - Healing broken bones and internal injuries.
-      - Techniques for resisting toxins and diseases.
+  <strong>Activation and Control</strong>
+  <ul>
+    <li>Consciously accelerating the healing process</li>
+    <li>Managing pain and energy levels during regeneration</li>
+  </ul>
 
-    - **Applications and Challenges**
-      - Balancing healing with physical exertion.
-      - Using your healing factor to aid others.
-      - Overcoming mental barriers to accelerated recovery.
+  <strong>Advanced Tissue Regeneration</strong>
+  <ul>
+    <li>Regrowing complex tissues like muscles and nerves</li>
+    <li>Healing broken bones and internal injuries within minutes</li>
+  </ul>
+
+  <strong>Combat Applications</strong>
+  <ul>
+    <li>Maintaining peak performance during sustained battles</li>
+    <li>Using healing factor to take strategic risks</li>
+  </ul>
+
+  <strong>Long-Term Health and Side Effects</strong>
+  <ul>
+    <li>Managing overuse and metabolic strain</li>
+    <li>Detecting anomalies like mutation or instability</li>
+  </ul>
+
   SYLLABUS
   price: 1500,
   level: 3, # Intermediate
@@ -255,23 +354,38 @@ course8 = Course.create!(
   title: "Telepathy (Emotions and Communication)",
   description: "Master the art of reading and transmitting thoughts, feelings, and emotions to connect deeply with others and enhance communication.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Telepathy
-    - **Foundations of Telepathy**
-      - Understanding brainwaves and emotional frequencies.
-      - The ethical use of telepathy.
+  <h2>Course Syllabus: Telepathy</h2>
 
-    - **Emotional Reading**
-      - Sensing and interpreting emotional states.
-      - Techniques for empathy and emotional influence.
+  <strong>Introduction to Telepathic Communication</strong>
+  <ul>
+    <li>Understanding the science and ethics of telepathy</li>
+    <li>Building mental clarity and emotional awareness</li>
+  </ul>
 
-    - **Thought Communication**
-      - Sending and receiving clear messages mentally.
-      - Establishing telepathic links with multiple people.
+  <strong>Reading Minds and Emotions</strong>
+  <ul>
+    <li>Detecting surface thoughts and emotional states</li>
+    <li>Distinguishing between your own thoughts and others’</li>
+  </ul>
 
-    - **Advanced Techniques**
-      - Shielding your mind from unwanted intrusion.
-      - Combining telepathy with persuasion and negotiation skills.
-      - Using telepathy in high-stress or emergency situations.
+  <strong>Sending Thoughts</strong>
+  <ul>
+    <li>Establishing a stable mental link with another person</li>
+    <li>Communicating silently over distance and through distractions</li>
+  </ul>
+
+  <strong>Group Telepathy and Networks</strong>
+  <ul>
+    <li>Connecting with multiple minds at once</li>
+    <li>Managing feedback loops and mental noise</li>
+  </ul>
+
+  <strong>Defensive and Ethical Applications</strong>
+  <ul>
+    <li>Shielding your mind from intrusion</li>
+    <li>Respecting boundaries and avoiding manipulation</li>
+  </ul>
+
   SYLLABUS
   price: 1800,
   level: 2,
@@ -287,23 +401,37 @@ course9 = Course.create!(
   title: "Portal Generation",
   description: "Learn how to bend space and create portals for instantaneous travel between distant locations.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Portal Generation
-    - **Introduction to Portal Physics**
-      - Understanding spatial folding and wormholes.
-      - The energy requirements of portal creation.
+  <h2>Course Syllabus: Portal Generation</h2>
 
-    - **Creating Simple Portals**
-      - Establishing short-range portals.
-      - Techniques for maintaining portal stability.
+  <strong>Foundations of Dimensional Theory</strong>
+  <ul>
+    <li>Understanding spatial folding and dimensional overlap</li>
+    <li>Safety protocols for interdimensional travel</li>
+  </ul>
 
-    - **Long-Distance Portals**
-      - Calculating safe exit points.
-      - Advanced focus techniques for extended ranges.
+  <strong>Creating Stable Portals</strong>
+  <ul>
+    <li>Generating portals for short-range transportation</li>
+    <li>Anchoring portals between fixed coordinates</li>
+  </ul>
 
-    - **Practical Applications**
-      - Using portals for combat and rescue operations.
-      - Troubleshooting common portal errors.
-      - Combining portals with other abilities for strategic advantage.
+  <strong>Advanced Navigation</strong>
+  <ul>
+    <li>Opening portals to moving targets</li>
+    <li>Timing and environmental synchronization</li>
+  </ul>
+
+  <strong>Combat and Emergency Use Cases</strong>
+  <ul>
+    <li>Using portals for tactical evasion or offense</li>
+    <li>Deploying emergency exit portals under pressure</li>
+  </ul>
+
+  <strong>Multi-Portal Management</strong>
+  <ul>
+    <li>Controlling multiple open portals simultaneously</li>
+    <li>
+
   SYLLABUS
   price: 2200,
   level: 2, # Advanced
@@ -319,23 +447,38 @@ course10 = Course.create!(
   title: "Tentacle Generation",
   description: "Unleash the power of growing and controlling tentacles from your limbs, granting enhanced strength, reach, and versatility.",
   syllabus: <<~SYLLABUS,
-    ### Course Syllabus: Tentacle Generation
-    - **Biology of Tentacle Growth**
-      - Understanding how tentacles integrate with your limbs.
-      - Maintaining control and flexibility during extension.
+  <h2>Course Syllabus: Tentacle Generation</h2>
 
-    - **Basic Tentacle Control**
-      - Growing and retracting tentacles safely.
-      - Using tentacles for climbing and grabbing objects.
+  <strong>Biological Manifestation Fundamentals</strong>
+  <ul>
+    <li>Understanding the origin and mechanics of tentacle generation</li>
+    <li>Controlling tentacle material (organic, energy-based, shadow, etc.)</li>
+  </ul>
 
-    - **Combat and Defense**
-      - Techniques for disarming opponents and creating barriers.
-      - Enhancing physical strength with tentacles.
+  <strong>Basic Tentacle Control</strong>
+  <ul>
+    <li>Extending and retracting tentacles at will</li>
+    <li>Manipulating basic objects with precision</li>
+  </ul>
 
-    - **Advanced Uses**
-      - Synchronizing tentacle movements with other abilities.
-      - Creative applications in problem-solving and exploration.
-      - Overcoming challenges like fatigue and overgrowth.
+  <strong>Multi-Tentacle Coordination</strong>
+  <ul>
+    <li>Operating multiple tentacles independently</li>
+    <li>Maintaining coordination under pressure</li>
+  </ul>
+
+  <strong>Combat Applications</strong>
+  <ul>
+    <li>Using tentacles for grappling, disarming, and restraining opponents</li>
+    <li>Defensive shielding and extended-range attacks</li>
+  </ul>
+
+  <strong>Advanced Techniques and Morphology</strong>
+  <ul>
+    <li>Altering tentacle shape, size, and function on demand</li>
+    <li>Integrating tentacle control with other powers</li>
+  </ul>
+
   SYLLABUS
   price: 1700,
   level: 1, # Intermediate
